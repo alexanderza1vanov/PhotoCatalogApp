@@ -1,82 +1,66 @@
 [
   {
     "id": "1",
-    "author": "Moqimg Nature",
+    "author": "Wikimedia Nature",
     "width": 600,
     "height": 400,
-    "url": "https://moqimg.xyz/600x400",
-    "download_url": "https://moqimg.xyz/600x400"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fronalpstock_big.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fronalpstock_big.jpg"
   },
   {
     "id": "2",
-    "author": "Moqimg Mountains",
+    "author": "Wikimedia Mountains",
     "width": 800,
     "height": 600,
-    "url": "https://moqimg.xyz/800x600",
-    "download_url": "https://moqimg.xyz/800x600"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moraine_Lake_17092005.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moraine_Lake_17092005.jpg"
   },
   {
     "id": "3",
-    "author": "Moqimg City",
+    "author": "Wikimedia Forest",
     "width": 900,
     "height": 600,
-    "url": "https://moqimg.xyz/900x600",
-    "download_url": "https://moqimg.xyz/900x600"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest_in_Oslo.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest_in_Oslo.jpg"
   },
   {
     "id": "4",
-    "author": "Moqimg Forest",
+    "author": "Wikimedia Sea",
     "width": 1000,
     "height": 700,
-    "url": "https://moqimg.xyz/1000x700",
-    "download_url": "https://moqimg.xyz/1000x700"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_view.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_view.jpg"
   },
   {
     "id": "5",
-    "author": "Moqimg Sea",
+    "author": "Wikimedia Landscape",
     "width": 1200,
     "height": 800,
-    "url": "https://moqimg.xyz/1200x800",
-    "download_url": "https://moqimg.xyz/1200x800"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Valley_of_the_Ten_Peaks.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Valley_of_the_Ten_Peaks.jpg"
   },
   {
     "id": "6",
-    "author": "Moqimg Landscape",
+    "author": "Wikimedia Lake",
     "width": 700,
     "height": 500,
-    "url": "https://moqimg.xyz/700x500",
-    "download_url": "https://moqimg.xyz/700x500"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_mapourika_NZ.jpeg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_mapourika_NZ.jpeg"
   },
   {
     "id": "7",
-    "author": "Moqimg Travel",
+    "author": "Wikimedia City",
     "width": 640,
     "height": 480,
-    "url": "https://moqimg.xyz/640x480",
-    "download_url": "https://moqimg.xyz/640x480"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_from_Weehawken,_NJ.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan_from_Weehawken,_NJ.jpg"
   },
   {
     "id": "8",
-    "author": "Moqimg River",
-    "width": 1024,
-    "height": 768,
-    "url": "https://moqimg.xyz/1024x768",
-    "download_url": "https://moqimg.xyz/1024x768"
-  },
-  {
-    "id": "9",
-    "author": "Moqimg Lake",
-    "width": 500,
-    "height": 500,
-    "url": "https://moqimg.xyz/500x500",
-    "download_url": "https://moqimg.xyz/500x500"
-  },
-  {
-    "id": "10",
-    "author": "Moqimg Sky",
+    "author": "Wikimedia Sky",
     "width": 1280,
     "height": 720,
-    "url": "https://moqimg.xyz/1280x720",
-    "download_url": "https://moqimg.xyz/1280x720"
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Sky_and_Clouds.jpg",
+    "download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Sky_and_Clouds.jpg"
   }
 ]
