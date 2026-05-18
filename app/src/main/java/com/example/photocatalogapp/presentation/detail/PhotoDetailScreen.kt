@@ -69,13 +69,13 @@ fun PhotoDetailScreen(
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "Автор: ${photo.author}",
+            text = "Название: ${photo.author}",
             style = MaterialTheme.typography.titleMedium
         )
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        Text(text = "Размер: ${photo.width} × ${photo.height}")
+        Text(text = "Размер постера: ${photo.width} × ${photo.height}")
 
         Spacer(modifier = Modifier.height(8.dp))
 
