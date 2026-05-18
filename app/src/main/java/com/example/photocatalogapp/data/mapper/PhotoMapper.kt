@@ -16,10 +16,10 @@ fun PhotoDto.toDomain(): Photo {
         ?: image?.x48
         ?: ""
 
-    val imageUrl = if (imagePath.startsWith("http")) {
-        imagePath
-    } else {
-        SHIKIMORI_BASE_URL + imagePath
+    val imageUrl = when {
+        imagePath.startsWith("http") -> imagePath
+        imagePath.isNotBlank() -> SHIKIMORI_BASE_URL + imagePath
+        else -> ""
     }
 
     return Photo(

@@ -24,9 +24,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
+import coil.request.ImageRequest
 import com.example.photocatalogapp.domain.model.Photo
 
 @Composable
@@ -93,6 +95,15 @@ private fun PhotoCard(
     photo: Photo,
     onClick: () -> Unit
 ) {
+    val context = LocalContext.current
+
+    val imageRequest = ImageRequest.Builder(context)
+        .data(photo.downloadUrl)
+        .addHeader("User-Agent", "PhotoCatalogApp/1.0 Android")
+        .addHeader("Accept", "image/*")
+        .crossfade(true)
+        .build()
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -100,7 +111,7 @@ private fun PhotoCard(
     ) {
         Column {
             AsyncImage(
-                model = photo.downloadUrl,
+                model = imageRequest,
                 contentDescription = photo.author,
                 modifier = Modifier
                     .fillMaxWidth()

@@ -7,7 +7,7 @@ interface PhotoApi {
 
     @GET("api/animes")
     suspend fun getPhotos(
-        @Query("limit") limit: Int = 30,
+        @Query("limit") limit: Int = 12,
         @Query("order") order: String = "popularity"
     ): List<PhotoDto>
 }

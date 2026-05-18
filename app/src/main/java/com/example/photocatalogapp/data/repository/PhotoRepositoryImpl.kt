@@ -1,6 +1,7 @@
 package com.example.photocatalogapp.data.repository
 
 import com.example.photocatalogapp.data.mapper.toDomain
+import com.example.photocatalogapp.data.remote.MockShikimoriData
 import com.example.photocatalogapp.data.remote.PhotoApi
 import com.example.photocatalogapp.domain.model.Photo
 import com.example.photocatalogapp.domain.repository.PhotoRepository
@@ -10,6 +11,16 @@ class PhotoRepositoryImpl(
 ) : PhotoRepository {
 
     override suspend fun getPhotos(): List<Photo> {
-        return api.getPhotos().map { it.toDomain() }
+        return try {
+            val photosFromApi = api.getPhotos()
+
+            if (photosFromApi.isNotEmpty()) {
+                photosFromApi.map { it.toDomain() }
+            } else {
+                MockShikimoriData.photos.map { it.toDomain() }
+            }
+        } catch (e: Exception) {
+            MockShikimoriData.photos.map { it.toDomain() }
+        }
     }
 }
